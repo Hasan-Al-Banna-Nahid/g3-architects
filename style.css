@@ -1,0 +1,175 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Part */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Section Design Start */
+
+/* Navbar Section Design Start  */
+.header-section {
+    background-color: rgba(255, 144, 14, 0.1);
+
+}
+
+.navbar-section {}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 20px;
+    gap: 30rem;
+
+}
+
+.company-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.navbar {}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    padding: 0 15px;
+
+}
+
+/* Navbar Section Design End  */
+/* Header information Section Design Start  */
+.header-info {
+    margin-top: 50px;
+}
+
+.header-info-container {
+    text-align: center;
+}
+
+.header-info-title {
+    color: #131313;
+    font-size: 62px;
+    font-weight: 700;
+    border-bottom: 1px solid teal;
+
+
+}
+
+.header-info-description {
+    color: #727272;
+    font-size: 16px;
+    font-size: 500;
+    margin: 10px 0 30px 0;
+}
+
+.header-info-button {
+    border: none;
+    width: 165px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #FF900E;
+    color: #ffffff;
+    border-radius: 6px;
+    margin-bottom: 30px;
+
+}
+
+/* Header information Section Design End  */
+/* Banner Section Design Start */
+.banner-section {}
+
+.banner-container {
+    text-align: center;
+}
+
+#banner-photo {
+    width: 75%;
+    height: 75%;
+    border-radius: 5px;
+    padding: 30px 0;
+}
+
+/* Banner Section Design End */
+/* Header Section Design End */
+
+/* Main Section Design Start */
+/* Feature Section Start */
+.feature-section {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.feature-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.feature-photos {
+    flex: 1;
+}
+
+.feature-image {
+    height: 240px;
+    width: 240px;
+    padding: 10px 10px;
+}
+
+.feature-info {
+    padding: 15px 80px;
+}
+
+.feature-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.feature-title-first-color {
+    color: #727272;
+}
+
+.feature-title-second-color {
+    color: #FF900E;
+}
+
+.feature-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.feature-button {
+    border: none;
+    width: 180px;
+    height: 60px;
+    background-color: #FF900E;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.feature-title,
+.feature-description,
+.feature-button {
+    padding: 18px 0;
+}
+
+/* Feature Section End */
+/* Main Section Design End */
