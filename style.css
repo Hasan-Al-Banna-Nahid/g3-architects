@@ -18,10 +18,7 @@ body {
 /* Navbar Section Design Start  */
 .header-section {
     background-color: rgba(255, 144, 14, 0.1);
-
 }
-
-.navbar-section {}
 
 .navbar-container {
     display: flex;
@@ -29,7 +26,6 @@ body {
     justify-content: space-around;
     padding: 50px 20px;
     gap: 30rem;
-
 }
 
 .company-name {
@@ -37,8 +33,6 @@ body {
     font-weight: 700;
     color: #131313;
 }
-
-.navbar {}
 
 .navbar a {
     text-decoration: none;
@@ -63,9 +57,6 @@ body {
     color: #131313;
     font-size: 62px;
     font-weight: 700;
-    border-bottom: 1px solid teal;
-
-
 }
 
 .header-info-description {
@@ -89,7 +80,6 @@ body {
 
 /* Header information Section Design End  */
 /* Banner Section Design Start */
-.banner-section {}
 
 .banner-container {
     text-align: center;
@@ -116,8 +106,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .feature-photos {
@@ -172,4 +160,93 @@ body {
 }
 
 /* Feature Section End */
+/* Service Of Feature Section Design Start */
+.service-of-features{
+    margin-top: 20px;
+}
+
+.service-of-features-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 110px;
+}
+.service-left-part{
+    flex: 1;
+    margin-top: 100px;
+}
+.service-title{
+    font-size: 28px;
+    color: #131313;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-left: 4px solid #FF900E;
+    padding: 0 10px;
+}
+.service-title-first-style{
+    color: #E94B3CFF;
+}
+.service-title-second-style{
+    color: #D64161FF;
+}
+.service-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    
+}
+.feature-service-title{
+    color: #131313;
+    font-size: 18px;
+    font-weight: 600;
+}
+.feature-service-description{
+    color: #727272;
+    font-size: 16px;
+    font-size: 500;
+}
+.service-type{
+    width: 450px;
+    height: 140px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 15px 80px;
+}
+.service-right-part{
+   margin-top: 70px;
+}
+.architecture-photo{
+    width: 500px;
+    height: 700px;
+}
+
+.service-experience-button{
+    width: 220px;
+    height: 130px;
+    border: none;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border-radius: 8px;
+    position: relative;
+    left: 100px;
+    bottom: 160px;
+}
+.service-button-first-style{
+    font-size: 44px;
+    font-weight: 700;
+    color: #5B84B1FF;
+}
+.service-button-second-style{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #00203FFF;
+}
+/* Service Of Feature Section Design End */
 /* Main Section Design End */
