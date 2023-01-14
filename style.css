@@ -255,17 +255,17 @@ body {
 .interesting-facts{
     margin-left: 200px;
     margin-top: -40px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 20px 50px;
 }
 .facts-title{
     color: #D64161FF;
     font-size: 28px;
     margin-left: 60px;
-
 }
 .facts-description{
     padding: 20px 80px;
-    line-height: 30px;
-    
+    line-height: 30px;  
 }
 .person-name{
     color: #D64161FF;
@@ -278,15 +278,52 @@ ul li{
     margin-bottom: 20px;
     color: #435E55FF;
     font-weight: 600;
+    
 }
 .facts-details{
     list-style-type: none;
-    
 }
 .fa-solid{
     color: #2BAE66FF;
     padding: 0 10px;
-    
 }
 /* Some Interesting Facts Section Design End */
+
+/*  Functionalism Section Design Start  */
+.our-functionalism{
+    margin-top: 70px;
+    padding: 40px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.functionalism-concepts{
+    text-align: center;
+}
+.functionalism-title, .functionalism-info{
+    margin-bottom: 15px;
+}
+.functionalism-title{
+    color: #990011FF;
+    font-size: 28px;
+    font-weight: 700;
+}
+.functionalism-info{
+    text-align: left;
+    margin-left: 400px;
+    color: #6E6E6DFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+.our-principals-list{
+    text-align: left;
+    margin-left: 600px;
+    list-style-type:none;
+}
+.our-principals-list li{
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #435E55FF;
+}
+
+/*  Functionalism Section Design End  */
 /* Main Section Design End */
