@@ -353,4 +353,52 @@ ul li {
 }
 
 /*  Functionalism Section Design End  */
+
+/* Our Success Section Design Start */
+.our-success{
+    margin-bottom: 70px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    padding: 30px 0;
+}
+.success-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.success-box{
+    height: 180px;
+    width: 200px;
+    border:1px solid #D64161FF;
+    text-align: center;
+    padding: 30px 30px;
+    border-radius: 8px;
+    transition: 1s ease-in-out transform;
+    
+}
+.success-box:hover{
+    transform: scale(1.1);
+    background-color:#00203FFF;
+    cursor: pointer;
+}
+.success-box:hover .success-number{
+    color: #D64161FF;
+}
+.success-box:hover .success-achivement{
+    color: #9CC3D5FF;
+}
+.success-icon{
+    padding: 5px 0;
+}
+.success-number{
+    color: #424242;
+    font-size: 28px;
+    font-weight: 600;
+}
+.success-achivement{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* Our Success Section Design End */
 /* Main Section Design End */
