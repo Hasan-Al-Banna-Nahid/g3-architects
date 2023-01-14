@@ -72,7 +72,7 @@ body {
     height: 60px;
     font-size: 18px;
     background-color: #FF900E;
-    color: #ffffff;
+    color: #00203FFF;
     border-radius: 6px;
     margin-bottom: 30px;
 
@@ -133,7 +133,7 @@ body {
 }
 
 .feature-title-second-color {
-    color: #FF900E;
+    color: #D64161FF;
 }
 
 .feature-description {
@@ -148,7 +148,7 @@ body {
     height: 60px;
     background-color: #FF900E;
     font-size: 18px;
-    color: #ffffff;
+    color: #00203FFF;
     border-radius: 6px;
     font-weight: 600;
 }
