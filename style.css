@@ -4,15 +4,16 @@
 /* Universal Selector */
 html {
     scroll-behavior: smooth;
-   
-  }
-  /* Body Part */
- * {
+
+}
+
+/* Body Part */
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
-  }
+}
 
 
 /* Header Section Design Start */
@@ -516,10 +517,12 @@ ul li {
     .header-info-description {
         padding: 5px 15px;
     }
+
     #banner-photo {
         width: 100%;
         height: 100%;
     }
+
     /*Quick List Of Feature Section */
     .feature-section {
         margin-left: 0px;
@@ -538,11 +541,13 @@ ul li {
     .feature-button {
         padding: 12px 0;
     }
+
     /* Service Of feature Section */
     .service-of-features {
         margin-top: 20px;
         margin-left: 40px;
     }
+
     .service-of-features-container {
         flex-direction: column;
         padding: 0;
@@ -554,34 +559,36 @@ ul li {
         flex: 1;
         margin-top: 50px;
     }
-    
+
     .service-title {
-        margin-left: 50px; 
+        margin-left: 50px;
     }
-    
+
     .service-description {
         margin-left: 10px;
         margin-bottom: 30px;
         padding: 0 50px;
     }
-    
+
     .service-type {
         margin: 10px 40px;
         font-size: 14px;
     }
-    .feature-service-description{
-        font-size: 12px;
+
+    .feature-service-description {
+        font-size: 13.5px;
     }
+
     .service-right-part {
         margin-top: 20px;
     }
-    
+
     .architecture-photo {
         width: 100%;
         height: 100%;
         margin-bottom: 8px;
     }
-    
+
     .service-experience-button {
         width: 200px;
         height: 100px;
@@ -589,7 +596,7 @@ ul li {
         left: 0;
         bottom: 0;
     }
-    
+
 }
 
 /* Responsive Design End */
