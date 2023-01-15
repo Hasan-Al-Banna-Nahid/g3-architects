@@ -798,12 +798,12 @@ textarea {
 
     legend {
         font-size: 22px;
-        right: 0;
+        right: 8px;
         
 
     }
     .submit{
-        right: 10px;
+        right: 0px;
     }
 }
 
