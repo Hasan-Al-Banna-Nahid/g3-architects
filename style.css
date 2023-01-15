@@ -659,7 +659,11 @@ ul li {
 
     .our-principals-list {
         margin-left: 100px;
-       
+    }
+    /* Success Section */
+    .success-container {
+        flex-direction: column;
+        gap: 1.5rem;
     }
 }
 
