@@ -801,6 +801,9 @@ textarea {
         right: 18px;
 
     }
+    .submit{
+        margin-right: 40px;
+    }
 }
 
 /* Responsive Design End */
