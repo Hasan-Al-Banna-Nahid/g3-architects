@@ -665,6 +665,21 @@ ul li {
         flex-direction: column;
         gap: 1.5rem;
     }
+    .sponsor-letter{
+        margin-left: 0;
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+    .sponsor-icon-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    /* Footer Section */
+    .footer-container{
+        width: 460px;
+        padding: 10px 28px;
+        text-align: revert;
+    }
 }
 
 /* Responsive Design End */
