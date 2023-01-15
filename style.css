@@ -787,18 +787,18 @@ textarea {
 
     /* Contact Form */
     .contact-form {
-        left: 25px;
+        left: 30px;
         width: 350px;
         padding: 0 30px;
     }
 
     .form-div {
-        left: 15px;
+        left: 25px;
     }
 
     legend {
         font-size: 22px;
-        right: 18px;
+        right: 0;
 
     }
     .submit{
