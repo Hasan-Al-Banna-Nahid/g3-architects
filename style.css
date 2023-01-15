@@ -41,15 +41,18 @@ body {
     color: #424242;
     padding: 0 15px;
 }
-#sign-up{
+
+#sign-up {
     color: #FC766AFF;
     cursor: pointer;
 }
-#log-in{
+
+#log-in {
     color: #00203FFF;
     padding: 8px 5px;
     cursor: pointer;
 }
+
 /* Navbar Section Design End  */
 
 /* Header information Section Design Start  */
@@ -87,6 +90,7 @@ body {
     cursor: pointer;
 
 }
+
 /* Header information Section Design End  */
 
 /* Banner Section Design Start */
@@ -366,66 +370,78 @@ ul li {
 /*  Functionalism Section Design End  */
 
 /* Our Success Section Design Start */
-.our-success{
+.our-success {
     margin-bottom: 70px;
     box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
     padding: 30px 0;
 }
-.success-container{
+
+.success-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 3rem;
 }
-.success-box{
+
+.success-box {
     height: 180px;
     width: 200px;
-    border:1px solid #D64161FF;
+    border: 1px solid #D64161FF;
     text-align: center;
     padding: 30px 30px;
     border-radius: 8px;
     transition: 1s ease-in-out transform;
-    
+
 }
-.success-box:hover{
+
+.success-box:hover {
     transform: scale(1.1);
-    background-color:#00203FFF;
+    background-color: #00203FFF;
     cursor: pointer;
 }
-.success-box:hover .success-number{
+
+.success-box:hover .success-number {
     color: #D64161FF;
 }
-.success-box:hover .success-achivement{
+
+.success-box:hover .success-achivement {
     color: #9CC3D5FF;
 }
-.success-icon{
+
+.success-icon {
     padding: 5px 0;
 }
-.success-number{
+
+.success-number {
     color: #424242;
     font-size: 28px;
     font-weight: 600;
 }
-.success-achivement{
+
+.success-achivement {
     color: #727272;
     font-size: 16px;
     font-weight: 600;
 }
+
 /* Our Success Section Design End */
 
 /* Our Sponsor Section Design Start */
-.our-sponsor{
+.our-sponsor {
     margin-bottom: 30px;
 }
-.sponsor-details{
+
+.sponsor-details {
     text-align: center;
 }
-.sponsor-title{
+
+.sponsor-title {
     color: #131313;
     font-size: 28px;
     font-weight: 700;
 }
-.sponsor-letter{
+
+.sponsor-letter {
     text-align: left;
     margin-left: 350px;
     color: #727272;
@@ -433,26 +449,30 @@ ul li {
     font-weight: 500;
     padding: 20px 0;
 }
-.sponsor-icon-container{
+
+.sponsor-icon-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem; 
+    gap: 3rem;
 }
-.sponsor-icon{
+
+.sponsor-icon {
     padding: 10px 20px;
     width: 140px;
     height: 50px;
 }
+
 /* Our Sponsor Section Design End */
 
 /* Main Section Design End */
 
 /* Footer Section Design Start */
-.footer-part{
+.footer-part {
     margin: 50px 0;
 }
-.footer-container{
+
+.footer-container {
     background-color: #FFF4E7;
     border-radius: 10px;
     height: 70px;
@@ -461,34 +481,59 @@ ul li {
     text-align: center;
     padding: 20px 0;
 }
-.footer-text{
+
+.footer-text {
     color: #424242;
     font-weight: 500;
     font-size: 18px;
 }
+
 /* Footer Section Design End */
 
 /* Responsive Design Start */
 /* For Mobile Device */
 @media only screen and (max-width:688px) {
+
     /* Navbar */
     .navbar-container {
-       flex-direction: column;
+        flex-direction: column;
         gap: 0rem;
     }
+
     .navbar a {
         display: block;
         padding: 10px 15px;
     }
-    #sign-up, #log-in{
+
+    #sign-up,
+    #log-in {
         padding: 10px 10px;
     }
+
     /* Header Info */
     .header-info-description {
         padding: 5px 15px;
-        font-size: 16px;
-        
     }
-    
-}  
+
+    /*Quick List Of Feature Section */
+    .feature-section {
+        margin-left: 0px;
+    }
+
+    .feature-container {
+        flex-direction: column;
+    }
+
+    .feature-photos {
+        padding: 0 70px;
+    }
+
+    .feature-title,
+    .feature-description,
+    .feature-button {
+        padding: 12px 0;
+    }
+
+}
+
 /* Responsive Design End */
