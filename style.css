@@ -787,9 +787,9 @@ textarea {
 
     /* Contact Form */
     .contact-form {
-        left: 30px;
+        left: 10px;
         width: 350px;
-        padding: 0 30px;
+        padding: 0 50px;
     }
 
     .form-div {
@@ -799,10 +799,11 @@ textarea {
     legend {
         font-size: 22px;
         right: 0;
+        left: 20px;
 
     }
     .submit{
-        margin-right: 40px;
+        margin-right: 0;
     }
 }
 
