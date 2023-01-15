@@ -472,7 +472,7 @@ ul li {
 
 /* Footer Section Design Start */
 /* Contact Form Section Design Start */
-.contact-form{
+.contact-form {
     position: relative;
     left: 400px;
     margin: 25px 0;
@@ -482,31 +482,37 @@ ul li {
     border-radius: 10px;
     text-align: center;
 }
-legend{
+
+legend {
     font-size: 26px;
     color: #949398FF;
     position: relative;
     top: 50px;
     text-decoration: underline;
 }
-.form-div{
+
+.form-div {
     text-align: center;
     position: relative;
     left: 170px;
     top: 100px;
 }
-.form-div>input, textarea{
+
+.form-div>input,
+textarea {
     display: block;
     text-align: center;
     margin-bottom: 20px;
     border: none;
 }
-::placeholder{
+
+::placeholder {
     color: #00203FFF;
     font-weight: 600;
     font-size: 15px;
 }
-.form-div>input[type="text"]{
+
+.form-div>input[type="text"] {
     width: 250px;
     height: 45px;
     background-color: #DE1B76;
@@ -515,7 +521,8 @@ legend{
     cursor: pointer;
     transition: 0.6s ease-in-out transform;
 }
-.form-div>input[type="email"]{
+
+.form-div>input[type="email"] {
     width: 250px;
     height: 60px;
     background-color: #7239C0;
@@ -524,7 +531,8 @@ legend{
     cursor: pointer;
     transition: 0.6s ease-in-out transform;
 }
-.form-div>textarea{
+
+.form-div>textarea {
     width: 250px;
     height: 110px;
     background-color: #E66C0F;
@@ -534,13 +542,16 @@ legend{
     cursor: pointer;
     transition: 0.6s ease-in-out transform;
 }
-.form-div> textarea:hover{
+
+.form-div>textarea:hover {
     transform: scale(1.2);
 }
-.form-div> input[type="email"]:hover{
+
+.form-div>input[type="email"]:hover {
     transform: scale(1.1);
 }
-.form-div> input[type="text"]:hover{
+
+.form-div>input[type="text"]:hover {
     transform: scale(1.2);
 }
 
@@ -734,25 +745,46 @@ legend{
     .our-principals-list {
         margin-left: 100px;
     }
+
     /* Success Section */
     .success-container {
         flex-direction: column;
         gap: 1.5rem;
     }
-    .sponsor-letter{
+
+    .sponsor-letter {
         margin-left: 0;
         padding: 10px 30px;
         font-size: 14px;
     }
+
     .sponsor-icon-container {
         flex-direction: column;
         gap: 1.5rem;
     }
+
     /* Footer Section */
-    .footer-container{
+    .footer-container {
         width: 460px;
         padding: 10px 28px;
         text-align: revert;
+    }
+
+    /* Contact Form */
+    .contact-form {
+        left: 0;
+        width: 350px;
+        padding: 0 30px;
+    }
+
+    .form-div {
+        left: 0;
+    }
+
+    legend {
+        font-size: 22px;
+        right: 18px;
+
     }
 }
 
