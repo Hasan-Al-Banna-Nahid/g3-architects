@@ -581,8 +581,6 @@ textarea {
 /* Responsive Design Start */
 /* For Mobile Device */
 @media only screen and (max-width:480px) {
-
-
     /* Navbar */
     .navbar-container {
         flex-direction: column;
@@ -772,7 +770,7 @@ textarea {
 
     /* Contact Form */
     .contact-form {
-        left: 0;
+        left: 20px;
         width: 350px;
         padding: 0 30px;
     }
