@@ -492,7 +492,7 @@ ul li {
 
 /* Responsive Design Start */
 /* For Mobile Device */
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:576px) {
 
     /* Navbar */
     .navbar-container {
@@ -564,7 +564,9 @@ ul li {
         margin: 10px 40px;
         font-size: 14px;
     }
-    
+    .feature-service-description{
+        font-size: 12px;
+    }
     .service-right-part {
         margin-top: 20px;
     }
@@ -576,7 +578,7 @@ ul li {
     }
     
     .service-experience-button {
-        width: 180px;
+        width: 200px;
         height: 100px;
         position: relative;
         left: 0;
