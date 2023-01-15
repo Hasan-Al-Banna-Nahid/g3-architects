@@ -789,21 +789,21 @@ textarea {
     .contact-form {
         left: 10px;
         width: 350px;
-        padding: 0 50px;
+        padding: 0 30px;
     }
 
     .form-div {
-        left: 25px;
+        left: 15px;
     }
 
     legend {
         font-size: 22px;
         right: 0;
-        left: 20px;
+        
 
     }
     .submit{
-        margin-right: 0;
+        right: 0;
     }
 }
 
