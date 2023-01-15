@@ -497,7 +497,7 @@ ul li {
 /* For Mobile Device */
 @media only screen and (max-width:480px) {
 
-           
+
     /* Navbar */
     .navbar-container {
         flex-direction: column;
@@ -597,28 +597,29 @@ ul li {
         left: 0;
         bottom: 0;
     }
+
     /* Interesting Facts */
-     .interesting-facts {
+    .interesting-facts {
         margin-left: 0;
         margin-top: 30px;
         box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
         padding: 20px 0;
         position: relative;
-        left:45px;
+        left: 45px;
     }
-    
+
     .facts-title {
         color: #D64161FF;
         font-size: 28px;
         margin-left: 20px;
         padding: 10px 30px;
     }
-    
+
     .facts-description {
         padding: 20px 80px;
         line-height: 30px;
     }
-    
+
     .person-name {
         color: #D64161FF;
         font-weight: 600;
@@ -626,66 +627,40 @@ ul li {
         font-size: 18px;
         cursor: pointer;
     }
-    
+
     ul li {
         margin-bottom: 20px;
         color: #435E55FF;
         font-weight: 600;
-    
+
     }
-    
+
     .facts-details {
         list-style-type: none;
     }
-    
+
     .fa-solid {
         color: #2BAE66FF;
         padding: 0 10px;
     }
+
     /* Principal & Functionalism Section */
-     .our-functionalism {
-        margin-top: 70px;
+    .our-functionalism {
+        margin-top: 40px;
         padding: 40px 0;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
     }
-    
-    .functionalism-concepts {
-        text-align: center;
-    }
-    
-    .functionalism-title,
+
     .functionalism-info {
-        margin-bottom: 15px;
-    }
-    
-    .functionalism-title {
-        color: #990011FF;
-        font-size: 28px;
-        font-weight: 700;
-    }
-    
-    .functionalism-info {
-        text-align: left;
-        margin-left: 0;
-        color: #6E6E6DFF;
-        font-weight: 500;
         font-size: 14px;
         padding: 5px 20px;
+        margin-left: 20px;
     }
-    
+
     .our-principals-list {
-        text-align: left;
         margin-left: 100px;
-        list-style-type: none;
+       
     }
-    
-    .our-principals-list li {
-        margin-bottom: 12px;
-        font-size: 18px;
-        font-weight: 600;
-        color: #435E55FF;
-    } 
-    
 }
 
 /* Responsive Design End */
