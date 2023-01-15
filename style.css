@@ -232,13 +232,13 @@ html {
 
 .feature-service-description {
     color: #727272;
-    font-size: 16px;
+    font-size: 15px;
     font-size: 500;
 }
 
 .service-type {
     width: 450px;
-    height: 140px;
+    height: 150px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
@@ -597,11 +597,13 @@ ul li {
         bottom: 0;
     }
     /* Interesting Facts */
-    .interesting-facts {
-        margin-left: 200px;
-        margin-top: -40px;
+     .interesting-facts {
+        margin-left: 0;
+        margin-top: 30px;
         box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-        padding: 20px 50px;
+        padding: 20px 0;
+        position: relative;
+        left:45px;
     }
     
     .facts-title {
@@ -638,6 +640,9 @@ ul li {
         color: #2BAE66FF;
         padding: 0 10px;
     }
+    
+    
+    
 }
 
 /* Responsive Design End */
