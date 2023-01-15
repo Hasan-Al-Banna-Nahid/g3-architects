@@ -467,3 +467,28 @@ ul li {
     font-size: 18px;
 }
 /* Footer Section Design End */
+
+/* Responsive Design Start */
+/* For Mobile Device */
+@media only screen and (max-width:688px) {
+    /* Navbar */
+    .navbar-container {
+       flex-direction: column;
+        gap: 0rem;
+    }
+    .navbar a {
+        display: block;
+        padding: 10px 15px;
+    }
+    #sign-up, #log-in{
+        padding: 10px 10px;
+    }
+    /* Header Info */
+    .header-info-description {
+        padding: 5px 15px;
+        font-size: 16px;
+        
+    }
+    
+}  
+/* Responsive Design End */
