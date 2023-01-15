@@ -1,4 +1,4 @@
-/* Google Font Link */
+/* Google Font  */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 /* Universal Selector */
@@ -40,10 +40,18 @@ body {
     font-size: 18px;
     color: #424242;
     padding: 0 15px;
-
 }
-
+#sign-up{
+    color: #FC766AFF;
+    cursor: pointer;
+}
+#log-in{
+    color: #00203FFF;
+    padding: 8px 5px;
+    cursor: pointer;
+}
 /* Navbar Section Design End  */
+
 /* Header information Section Design Start  */
 .header-info {
     margin-top: 50px;
@@ -76,10 +84,11 @@ body {
     color: #00203FFF;
     border-radius: 6px;
     margin-bottom: 30px;
+    cursor: pointer;
 
 }
-
 /* Header information Section Design End  */
+
 /* Banner Section Design Start */
 
 .banner-container {
@@ -152,6 +161,7 @@ body {
     color: #00203FFF;
     border-radius: 6px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .feature-title,
@@ -161,6 +171,7 @@ body {
 }
 
 /* Feature Section End */
+
 /* Service Of Feature Section Design Start */
 .service-of-features {
     margin-top: 20px;
@@ -401,4 +412,58 @@ ul li {
     font-weight: 600;
 }
 /* Our Success Section Design End */
+
+/* Our Sponsor Section Design Start */
+.our-sponsor{
+    margin-bottom: 30px;
+}
+.sponsor-details{
+    text-align: center;
+}
+.sponsor-title{
+    color: #131313;
+    font-size: 28px;
+    font-weight: 700;
+}
+.sponsor-letter{
+    text-align: left;
+    margin-left: 350px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.sponsor-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem; 
+}
+.sponsor-icon{
+    padding: 10px 20px;
+    width: 140px;
+    height: 50px;
+}
+/* Our Sponsor Section Design End */
+
 /* Main Section Design End */
+
+/* Footer Section Design Start */
+.footer-part{
+    margin: 50px 0;
+}
+.footer-container{
+    background-color: #FFF4E7;
+    border-radius: 10px;
+    height: 70px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-text{
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* Footer Section Design End */
