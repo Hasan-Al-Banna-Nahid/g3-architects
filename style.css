@@ -471,6 +471,80 @@ ul li {
 /* Main Section Design End */
 
 /* Footer Section Design Start */
+/* Contact Form Section Design Start */
+.contact-form{
+    position: relative;
+    left: 400px;
+    margin: 25px 0;
+    background-color: #00203FFF;
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    text-align: center;
+}
+legend{
+    font-size: 26px;
+    color: #949398FF;
+    position: relative;
+    top: 50px;
+    text-decoration: underline;
+}
+.form-div{
+    text-align: center;
+    position: relative;
+    left: 170px;
+    top: 100px;
+}
+.form-div>input, textarea{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    border: none;
+}
+::placeholder{
+    color: #00203FFF;
+    font-weight: 600;
+    font-size: 15px;
+}
+.form-div>input[type="text"]{
+    width: 250px;
+    height: 45px;
+    background-color: #DE1B76;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.6s ease-in-out transform;
+}
+.form-div>input[type="email"]{
+    width: 250px;
+    height: 60px;
+    background-color: #7239C0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.6s ease-in-out transform;
+}
+.form-div>textarea{
+    width: 250px;
+    height: 110px;
+    background-color: #E66C0F;
+    padding: 10px 20px;
+    border-radius: 8px;
+    resize: none;
+    cursor: pointer;
+    transition: 0.6s ease-in-out transform;
+}
+.form-div> textarea:hover{
+    transform: scale(1.2);
+}
+.form-div> input[type="email"]:hover{
+    transform: scale(1.1);
+}
+.form-div> input[type="text"]:hover{
+    transform: scale(1.2);
+}
+
+/* Contact Form Section Design End */
 .footer-part {
     margin: 50px 0;
 }
